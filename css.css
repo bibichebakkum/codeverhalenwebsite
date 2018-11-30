@@ -1,0 +1,200 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+h2.extrakeuze {
+	color: #55565a;
+	text-transform: none;
+	text-align: center;
+	background: #a8e2ea;
+	padding: 2em;
+	border: 10px solid #d4f1f5;
+	margin-top: 0.5em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 26px;
+	line-height: 36px;
+	color: #55565a;
+}
+
+h2.filteren {
+	text-align: left;
+	font-size: 26px;
+	line-height: 36px;
+	color: #ffffff;
+}
+
+hr {
+
+	width: 40px;
+	height: 3px;
+	background-color: #24b5c9;
+	border: #24b5c9;
+}
+
+article {
+	border: 2px solid #ffffff;
+	box-shadow: 0px 0px 5px #e6e6e7;
+	margin: 2em 3.5em;
+	border-radius: 14px;
+	padding-bottom: 1em;
+	height: 27em;
+	position: relative;
+	color: #55565a;
+}
+
+article h1 {
+	text-transform: none;
+	padding: 0em 1em;
+	color: #55565a;
+}
+
+article p {
+	padding: 1em;
+}
+
+article img {
+	max-width: 100%;
+	border-radius: 14px 14px 0px 0px;
+}
+
+article a.knop {
+	padding: 0.5em 1em;
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	left: 1em;
+	box-shadow: 0px 2px #949494;
+	font-weight: 1000;
+}
+
+header {
+	background-color: #06183d;
+	padding: 1em;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+header img {
+	width: 150px;
+	height: 19px;
+
+}
+
+header ul {
+	list-style: none;
+	margin: auto;
+	text-align: center;
+}
+
+.banner {
+	background-image: url(afbeeldingen/headerafbeelding.svg);
+	border-bottom: 8px solid #24b5c9;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 0;
+	margin-bottom: 2em;
+	padding: 2em;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.knop {
+	background-color: #fbdd0f;
+	border-radius: 4px;
+	text-align: center;
+	border-color: #fbdd0f;
+	padding: 4px 12px;
+	text-transform: uppercase;
+	color: #55565a;
+	font-size: 1rem;
+
+}
+
+button:hover {
+	background-color: #ffea6a;
+}
+
+/* Nav boven het formulier */ 
+
+ul.sorteer {
+	display: flex;
+	list-style: none;
+	justify-content: flex-start;
+	margin-bottom: 0.9em;
+	padding-left: 0.95em;
+}
+
+li a.sorteer {
+	color: #ffffff;
+	background-color: #06183d;
+	padding: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	opacity: 0.8;
+	border-radius: 4px 4px 0px 0px;
+	margin: 0px 0.5px;
+	
+	
+}
+
+li a.sorteer:hover {
+	color: #06183d;
+	background-color: #ffffff ;
+	font-weight: bold;
+}
+
+/* css voor het filter formulier */
+
+form {
+	background-color: #06183d;
+	color: #ffffff;
+	padding: 1rem 3rem 2rem;
+	border-radius: 0px 4px 4px 4px;
+	margin: 1em;
+	margin-top: 0;
+}
+
+input[type=radio] {
+	margin-bottom: 1.5em;
+
+}
+
+input[type=submit] {
+	background-color: #fbdd0f;
+	border-radius: 4px;
+	border-color: #fbdd0f;
+	width: 112px;
+	height: 38px;
+	text-transform: uppercase;
+	color: #55565a;
+	font-size: 1rem;
+	margin: 1em 0em;
+}
+
+input[type=submit]:hover {
+	background-color: #ffea6a;
+}
+
+select {
+	width: 100%;
+	height: 30px;
+	color: #b7b7b7;
+	margin-bottom: 1.5em;
+	background-color: #ffffff;
+}
+
+
+/* */ 
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Verhalen eurostar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html"><img src="afbeeldingen/logo.svg" alt="logo mobiel"></a>
+				</li>
+
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<div class="banner">
+		<h1>verhaal van de dag</h1>
+		<a class="knop"> Lees nu </a>
+	</div>
+
+	<nav>
+		<ul class="sorteer">
+			<li><a class="sorteer" href="">Verhalen</a></li>
+			<li><a class="sorteer" href="">Mijn lijst</a></li>
+			<li><a class="sorteer" href="">Gedownload</a></li>
+		</ul>
+	</nav>
+
+
+	<form>
+		<h2 class="filteren">Filter opties </h2>
+
+		<input id="gelezen" type="radio" name="gelezen verhalen" value="ja">
+		<label for="gelezen">Alleen ongelezen verhalen
+		tonen. </label>
+
+
+		<label for="sorteer">Sorteer op:</label>
+		<select id="sorteer" name="sorteer">
+			<option value="populariteit">Populariteit</option>
+			<option value="a-z">A-Z</option>
+			<option value="1-99">1-99</option>
+		</select>
+
+		<label for="genre">Genre:</label>
+		<select id="genre" name="genre">
+			<option value="alle">Alle</option>
+			<option value="vrolijk">Vrolijk</option>
+			<option value="boos">Boos</option>
+			<option value="humor">Humor</option>
+		</select>
+
+		<label for="leesduur">Leesduur:</label>
+		<select id="leesduur" name="leesduur">
+			<option value="alle">Alle</option>
+			<option value="ondervijf"> &lt; 5 minuten </option>
+			<option value="vijftottien">5 - 10 minuten</option>
+			<option value="tienofmeer"> &gt; 10 minuten</option>
+
+		</select>
+
+		<input type="submit" value="Zoek">
+	</form>
+
+	<section>
+		<h2 class="extrakeuze">
+			Willekeurig verhaal
+		</h2>
+	</section>
+
+
+	<h2>Verhalen</h2>
+	<hr>
+	<section>
+		<article>
+			<img src="afbeeldingen/Schermafbeelding%202018-11-26%20om%2017.20.12.png" alt="nichterigverhaal">
+			<h1 class="verhaal">
+				Nichterig
+			</h1>
+			<p>Dus ik stap de bus uit, met mijn zoon in mijn wagen en ik schrik me . . . </p>
+			<a class="knop">lees nu</a>
+		</article>
+	</section>
+</body>
+
+</html>
