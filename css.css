@@ -44,12 +44,16 @@ hr {
 article {
 	border: 2px solid #ffffff;
 	box-shadow: 0px 0px 5px #e6e6e7;
-	margin: 2em 3.5em;
+	margin: 0 auto;
+	margin-top: 2em;
 	border-radius: 14px;
 	padding-bottom: 1em;
 	height: 27em;
 	position: relative;
 	color: #55565a;
+	width: 17.7em;
+	
+	
 }
 
 article h1 {
