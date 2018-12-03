@@ -9,6 +9,12 @@ h1 {
 	color: #ffffff;
 }
 
+h1.banner {
+	padding: 0;
+	margin-bottom: 1em;
+	width: 8em
+}
+
 h2.extrakeuze {
 	color: #55565a;
 	text-transform: none;
@@ -46,6 +52,7 @@ article {
 	box-shadow: 0px 0px 5px #e6e6e7;
 	margin: 0 auto;
 	margin-top: 2em;
+	margin-bottom: 3em;
 	border-radius: 14px;
 	padding-bottom: 1em;
 	height: 27em;
@@ -172,7 +179,6 @@ form {
 
 input[type=radio] {
 	margin-bottom: 1.5em;
-
 }
 
 input[type=submit] {
@@ -193,7 +199,7 @@ input[type=submit]:hover {
 
 select {
 	width: 100%;
-	height: 100px;
+	height: 30px;
 	color: #b7b7b7;
 	margin-bottom: 1.5em;
 	background-color: #ffffff;
