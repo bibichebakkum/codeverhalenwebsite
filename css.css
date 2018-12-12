@@ -40,6 +40,10 @@ h2.filteren {
 	color: #ffffff;
 }
 
+a:hover{
+	
+}
+
 hr {
 
 	width: 40px;
@@ -60,8 +64,9 @@ article {
 	position: relative;
 	color: #55565a;
 	width: 17.7em;
-	
-	
+	position: relative;
+
+
 }
 
 article h1 {
@@ -77,6 +82,7 @@ article p {
 article img {
 	max-width: 100%;
 	border-radius: 14px 14px 0px 0px;
+	
 }
 
 article a.knop {
@@ -87,6 +93,21 @@ article a.knop {
 	left: 1em;
 	box-shadow: 0px 2px #949494;
 	font-weight: 1000;
+}
+
+img.download {
+	width: 1.5em;
+	position: absolute;
+	top: 7.3em;
+	right: 2em;
+}
+
+img.like {
+
+	width: 1.4em;
+	position: absolute;
+	top: 7.5em;
+	right: 0.3em;
 }
 
 header {
@@ -138,7 +159,7 @@ button:hover {
 	background-color: #ffea6a;
 }
 
-/* Nav boven het formulier */ 
+/* Nav boven het formulier */
 
 ul.sorteer {
 	display: flex;
@@ -157,17 +178,27 @@ li a.sorteer {
 	opacity: 0.8;
 	border-radius: 4px 4px 0px 0px;
 	margin: 0px 0.5px;
-	
-	
+
+
 }
 
 li a.sorteer:hover {
 	color: #06183d;
-	background-color: #ffffff ;
+	background-color: #ffffff;
 	font-weight: bold;
 }
 
 /* css voor het filter formulier */
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+
+}
 
 form {
 	background-color: #06183d;
@@ -207,5 +238,4 @@ select {
 }
 
 
-/* */ 
-
+/* */
