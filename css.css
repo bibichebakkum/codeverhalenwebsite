@@ -1,5 +1,5 @@
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', 'arial', sans-serif;
 	margin: 0;
 }
 
@@ -11,6 +11,7 @@ h1 {
 
 h1.banner {
 	padding: 0;
+	text-shadow: rgba(0,0,0,0.6) 0px 0px 6px;
 	margin-bottom: 1em;
 	width: 8em;
 	border: none;
@@ -175,7 +176,6 @@ li a.sorteer {
 	padding: 1em;
 	font-weight: bold;
 	text-decoration: none;
-	opacity: 0.8;
 	border-radius: 4px 4px 0px 0px;
 	margin: 0px 0.5px;
 
@@ -209,7 +209,7 @@ form {
 	margin-top: 0;
 }
 
-input[type=radio] {
+input[type=checkbox] {
 	margin-bottom: 1.5em;
 }
 
