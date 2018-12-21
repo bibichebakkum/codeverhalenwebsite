@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
 	<header>
 		<nav>
 			<ul>
@@ -27,6 +26,8 @@
 		<h1 class="banner">verhaal van de dag</h1>
 		<a class="knop"> Lees nu </a>
 	</div>
+	
+	
 
 	<nav>
 		<ul class="sorteer">
@@ -39,40 +40,44 @@
 
 	<form>
 		<fieldset>
-			<legend>Filter opties</legend>
+			<legend></legend>
 
 
 			<section>
-				<input id="gelezen" type="radio" name="gelezen verhalen" value="ja">
+				<input id="gelezen" type="checkbox" name="gelezen verhalen" value="ja">
 				<label for="gelezen">Alleen ongelezen verhalen
 					tonen. </label>
 			</section>
+			<div class="flexfilter">
+				<div class="input">
+					<label for="sorteer">Sorteer op:</label>
+					<select id="sorteer" name="sorteer">
+						<option value="populariteit">Populariteit</option>
+						<option value="a-z">A-Z</option>
+						<option value="1-99">1-99</option>
+					</select>
+				</div>
+				<div class="input">
+					<label for="genre">Genre:</label>
+					<select id="genre" name="genre">
+						<option value="alle">Alle</option>
+						<option value="vrolijk">Vrolijk</option>
+						<option value="boos">Boos</option>
+						<option value="humor">Humor</option>
+					</select>
+				</div>
+				<div class="input">
+					<label for="leesduur">Leesduur:</label>
+					<select id="leesduur" name="leesduur">
+						<option value="alle">Alle</option>
+						<option value="ondervijf"> &lt; 5 minuten </option>
+						<option value="vijftottien">5 - 10 minuten</option>
+						<option value="tienofmeer"> &gt; 10 minuten</option>
 
-			<label for="sorteer">Sorteer op:</label>
-			<select id="sorteer" name="sorteer">
-				<option value="populariteit">Populariteit</option>
-				<option value="a-z">A-Z</option>
-				<option value="1-99">1-99</option>
-			</select>
-
-			<label for="genre">Genre:</label>
-			<select id="genre" name="genre">
-				<option value="alle">Alle</option>
-				<option value="vrolijk">Vrolijk</option>
-				<option value="boos">Boos</option>
-				<option value="humor">Humor</option>
-			</select>
-
-			<label for="leesduur">Leesduur:</label>
-			<select id="leesduur" name="leesduur">
-				<option value="alle">Alle</option>
-				<option value="ondervijf"> &lt; 5 minuten </option>
-				<option value="vijftottien">5 - 10 minuten</option>
-				<option value="tienofmeer"> &gt; 10 minuten</option>
-
-			</select>
-
-			<input type="submit" value="Zoek">
+					</select>
+				</div>
+			</div>
+			<input class="zoeken" type="submit" value="Zoek">
 		</fieldset>
 	</form>
 
@@ -87,7 +92,7 @@
 	<hr>
 	<section>
 		<article>
-			<img src="afbeeldingen/Schermafbeelding%202018-11-26%20om%2017.20.12.png" alt="nichterigverhaal">
+			<img class="verhaal" src="afbeeldingen/Schermafbeelding%202018-11-26%20om%2017.20.12.png" alt="nichterigverhaal">
 			<a><img class="like" src="afbeeldingen/like.svg" alt="like"></a>
 			<a><img class="download" src="afbeeldingen/download.svg" alt="download knop"></a>
 
