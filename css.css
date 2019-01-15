@@ -3,280 +3,365 @@ body {
 	margin: 0;
 }
 
-@media (max-width: 550px) {
 
+/*mobiel*/
+@media (max-width: 48em) {
 
-	form {}
+	li#logodesktop {
+		display: none;
+		 !important
+	}
+	
 
 }
 
-@media (min-width: 900px) {
-	
-	body {
-		background-color:
+
+/*Tablet*/
+@media (min-width: 48em) {
+
+	#logomobiel {
+		display: none;
 	}
-	
+
+
 	.flexfilter {
 		display: flex;
 		align-items: center;
 	}
+
 	.input {
 		width: 100%;
 	}
+
+	.verhaalzoeken {
+		padding-left: 0.5em;
+	}
 	
-	.zoeken {
-		position: relative;
-		right: 1em;
-	}
-	input[type=submit] {
-		
-	}
+   
 }
-h1 {
-		font-family: 'Montserrat', sans-serif;
-		text-transform: uppercase;
-		color: #ffffff;
-	}
 
-h1.banner {
-		padding: 0;
-		text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 6px;
-		margin-bottom: 1em;
-		width: 8em;
-		border: none;
-	}
-
-h2.extrakeuze {
-		color: #55565a;
-		font-size: 1.6em;
-		text-transform: none;
-		text-align: center;
-		background: #a8e2ea;
-		padding: 2em;
-		border: 10px solid #d4f1f5;
-		margin-top: 0.5em;
-	}
-
-h2 {
-		text-align: center;
-		font-size: 1.6em;
-		line-height: 36px;
-		color: #55565a;
-	}
-
-h2.filteren {
-		text-align: left;
-		font-size: 26px;
-		line-height: 36px;
-		color: #ffffff;
-	}
-
-a:hover {}
-
-hr {
-
-		width: 40px;
-		height: 3px;
-		background-color: #24b5c9;
-		border: #24b5c9;
-
-	}
-
-	/* Artikelen*/
-
-	article {
-		border: 2px solid #ffffff;
-		box-shadow: 0px 0px 5px #e6e6e7;
-		margin: 0 auto;
-		margin-top: 2em;
-		margin-bottom: 3em;
-		border-radius: 14px;
-		padding-bottom: 1em;
-		height: 27em;
-		position: relative;
-		color: #55565a;
-		width: 17.7em;
-		position: relative;
-
-
-	}
-
-	article h1 {
-		text-transform: none;
-		padding: 0em 1em;
-		color: #55565a;
-	}
-
-	article p {
-		padding: 1em;
-	}
-
-	article img.verhaal {
-		max-width: 100%;
-		border-radius: 14px 14px 0px 0px;
-
-	}
-
-	article a.knop {
-		padding: 0.5em 1em;
-		position: absolute;
-		bottom: 1em;
-		right: 1em;
-		left: 1em;
-		box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
-		font-weight: 1000;
-	}
-
-	img.download {
-		width: 1.5em;
-		position: absolute;
-		top: 7.3em;
-		right: 2em;
-	}
-
-	img.like {
-
-		width: 1.4em;
-		position: absolute;
-		top: 7.5em;
-		right: 0.3em;
-	}
-
-	.knop {
-		background-color: #fbdd0f;
-		border-radius: 4px;
-		text-align: center;
-		border-color: #fbdd0f;
-		padding: 4px 12px;
-		text-transform: uppercase;
-		color: #55565a;
-		font-size: 1em;
-		box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
-
-
-	}
-
-	header {
-		background-color: #06183d;
-		padding: 1em;
-		left: 0;
-		right: 0;
-		top: 0;
-	}
-
-
-
-	header img {
-		width: 150px;
-		height: 19px;
-
-	}
-
-	header ul {
-		list-style: none;
-		margin: auto;
-		text-align: center;
+/*Desktop*/
+@media (min-width: 65em) {
+	body {
+		background-color: ;
 	}
 
 	.banner {
-		background-image: url(afbeeldingen/headerafbeelding.svg);
-		border-bottom: 8px solid #24b5c9;
-		background-size: cover;
-		background-position: center center;
-		margin-top: 0;
-		margin-bottom: 2em;
-		padding: 2em;
-		left: 0;
-		right: 0;
-		top: 0;
+		height: 10em;
 	}
+}
+
+h1.anders {
+	color: #55565a;
+	font-size: 24px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+h1.tekstbanner {
+	padding: 0;
+	text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 6px;
+	margin-bottom: 1em;
+	width: 8em;
+	border: none;
+	background: none;
+}
+
+h3 {
+	color: #55565a;
+	font-size: 1.6em;
+	text-transform: none;
+	text-align: center;
+	background: #7cd3df;
+	padding: 2em;
+	border: 10px solid #d4f1f5;
+	margin-top: 0.5em;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.top5  {
+	background: #a8e2ea;
+
+}
+
+.voorjou {
+	background: #a8e2ea;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.6em;
+	line-height: 36px;
+	color: #55565a;
+	margin-bottom: 0.5em;
+}
+
+h2.filteren {
+	text-align: left;
+	font-size: 26px;
+	line-height: 36px;
+	color: #ffffff;
+}
 
 
 
-	button:hover {
-		background-color: #ffea6a;
-	}
+hr {
 
-	/* Nav boven het formulier */
+	width: 40px;
+	height: 3px;
+	background-color: #24b5c9;
+	border: #24b5c9;
 
-	ul.sorteer {
-		display: flex;
-		list-style: none;
-		justify-content: flex-start;
-		margin-bottom: 0.9em;
-		padding-left: 0.95em;
-	}
+}
 
-	li a.sorteer {
-		color: #ffffff;
-		background-color: #06183d;
-		padding: 1em;
-		font-weight: bold;
-		text-decoration: none;
-		border-radius: 4px 4px 0px 0px;
-		margin: 0px 0.5px;
+span.randomkeuze {
+	display: flex;
+	width: 60em;
+	margin: auto;
+	
+	
+}
+/* Artikelen*/
 
+section.verhalen {
 
-	}
+	display: flex;
+	flex-wrap: wrap;
+}
 
-	li a.sorteer:hover {
-		color: #06183d;
-		background-color: #ffffff;
-		font-weight: bold;
-	}
-
-	/* css voor het filter formulier */
-	fieldset {
-		border: none;
-	}
-/*
-	legend {
-		font-size: 1.3em;
-		font-weight: bold;
-		padding-bottom: 0.5em;
-
-	}
-*/
-
-	form {
-		background-color: #06183d;
-		color: #ffffff;
-		padding: 1em;
-		border-radius: 0px 4px 4px 4px;
-		margin: 1em;
-		margin-top: 0;
-	}
-
-	input[type=checkbox] {
-		margin-bottom: 1.5em;
-	}
-
-	input[type=submit] {
-		background-color: #fbdd0f;
-		border-radius: 4px;
-		border-color: #fbdd0f;
-		width: 112px;
-		height: 38px;
-		text-transform: uppercase;
-		color: #55565a;
-		font-size: 1rem;
-		margin: 1em 0em;
-		box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
-
-	}
-
-	input[type=submit]:hover {
-		background-color: #ffea6a;
-
-	}
-
-	select {
-		width: 100%;
-		height: 30px;
-		color: #b7b7b7;
-		margin-bottom: 1.5em;
-		background-color: #ffffff;
-	}
+article {
+	border: 2px solid #ffffff;
+	box-shadow: 0px 0px 5px #e6e6e7;
+	margin: 0 auto;
+	margin-top: 2em;
+	margin-bottom: 3em;
+	border-radius: 14px;
+	padding-bottom: 1em;
+	height: 27em;
+	position: relative;
+	color: #55565a;
+	width: 17.9em;
+	position: relative;
 
 
-	/* */
+}
+
+article h1 {
+	text-transform: none;
+	padding: 0em 1em;
+	color: #55565a;
+}
+
+article p {
+	padding: 1em;
+}
+
+article img.verhaal {
+	width: 18em;
+	height: 9.5em;
+	border-radius: 14px 14px 0px 0px;
+
+}
+
+article a.knop {
+	padding: 0.5em 1em;
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	left: 1em;
+	box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+	font-weight: 1000;
+}
+
+img.download {
+	width: 1.5em;
+	position: absolute;
+	top: 7.3em;
+	right: 2em;
+}
+
+img.like {
+
+	width: 1.4em;
+	position: absolute;
+	top: 7.5em;
+	right: 0.3em;
+}
+
+img.opslaan {
+
+	width: 1em;
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+}
+
+img.opslaangelukt {
+	width: 1em;
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+}
+
+.knop {
+	background-color: #fbdd0f;
+	border-radius: 4px;
+	text-align: center;
+	border-color: #fbdd0f;
+	padding: 4px 12px;
+	text-transform: uppercase;
+	color: #55565a;
+	font-size: 1em;
+	box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+
+
+}
+
+header {
+	background-color: #06183d;
+	padding: 1em;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+
+header.anderepagina {
+	margin-bottom: 2em;
+}
+
+#logomobiel {
+	width: 150px;
+	height: 19px;
+	margin: auto;
+
+}
+
+#logodesktop {
+
+	display: flex;
+	align-content: flex-start;
+
+
+}
+
+header ul {
+	list-style: none;
+	margin: auto;
+	text-align: center;
+}
+
+.banner {
+	background-image: url(afbeeldingen/titel.nichterig.svg);
+	border-bottom: 8px solid #24b5c9;
+	background-size: cover;
+	background-position: center;
+	margin-top: 0;
+	margin-bottom: 2em;
+	padding: 2em;
+	left: 0;
+	right: 0;
+	top: 0;
+
+}
+
+
+
+button:hover {
+	background-color: #ffea6a;
+}
+
+/* Nav boven het formulier */
+
+ul.sorteer {
+	display: flex;
+	list-style: none;
+	justify-content: flex-start;
+	margin-bottom: 0.9em;
+	padding-left: 0.95em;
+}
+
+li a.sorteer {
+	color: #ffffff;
+	background-color: #06183d;
+	padding: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 4px 4px 0px 0px;
+	margin: 0px 0.5px;
+
+
+}
+
+li a.sorteer:hover {
+	color: #ffffff;
+	opacity: 0.8;
+	font-weight: bold;
+	border-top: 4px solid #fbdd0f;
+
+}
+
+/* css voor het filter formulier */
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+
+}
+
+
+form {
+	background-color: #06183d;
+	color: #ffffff;
+	padding: 1em;
+	border-radius: 0px 4px 4px 4px;
+	margin: 1em;
+	margin-top: 0;
+}
+
+input[type=checkbox] {
+	margin-bottom: 1.5em;
+}
+
+input[type=submit] {
+	background-color: #fbdd0f;
+	border-radius: 4px;
+	border-color: #fbdd0f;
+	width: 112px;
+	height: 38px;
+	text-transform: uppercase;
+	color: #55565a;
+	font-size: 1rem;
+	margin: 1em 0em;
+	box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+
+}
+
+input[type=submit]:hover {
+	background-color: #ffea6a;
+
+}
+
+select {
+	width: 100%;
+	height: 30px;
+	color: #b7b7b7;
+	margin-bottom: 1.5em;
+	background-color: #ffffff;
+}
+
+#inklappen {
+	display: none;
+}
+
+
+/* */

@@ -6,14 +6,14 @@
 	<title>Verhalen eurostar</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css.css">
-	<script src="js.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200" rel="stylesheet">
 
 </head>
-
 <body>
-	<header>
+
+	
+<header class="anderepagina">
 		<nav>
 			<ul>
 				<li id="logomobiel"><a href="index.html"><img src="afbeeldingen/logo.svg" alt="logo mobiel"></a>
@@ -24,14 +24,7 @@
 			</ul>
 		</nav>
 	</header>
-
-	<div class="banner">
-		<h1 class="tekstbanner">verhaal van de dag</h1>
-		<a class="knop"> Lees nu </a>
-	</div>
-
-
-
+	
 	<nav>
 		<ul class="sorteer">
 			<li><a class="sorteer" href="verhalen.html">Verhalen</a></li>
@@ -43,27 +36,27 @@
 
 	<form action="nafilteren.html">
 		<fieldset>
-			<legend>Filter op:</legend>
+			<legend>Filteren</legend>
 
-
-			<section>
-				<input id="gelezen" type="checkbox" name="gelezen verhalen" value="ja">
-				<label for="gelezen">Alleen ongelezen verhalen
-					tonen. </label>
-			</section>
-			<div class="flexfilter">
-				<div class="input">
-					<label for="sorteer">Sorteer op:</label>
-					<select id="sorteer" name="sorteer">
-						<option value="populariteit">Populariteit</option>
-						<option value="a-z">A-Z</option>
-						<option value="1-99">1-99</option>
-					</select>
-				</div>
-				<div class="input">
-					<label for="genre">Genre:</label>
-					<select id="genre" name="genre">
-						<option value="alle">Alle</option>
+			<div id="inklappen">
+				<section>
+					<input id="gelezen" type="checkbox" name="gelezen verhalen" value="ja">
+					<label for="gelezen">Alleen ongelezen verhalen
+						tonen. </label>
+				</section>
+				<div class="flexfilter">
+					<div class="input">
+						<label for="sorteer">Sorteer op:</label>
+						<select id="sorteer" name="sorteer">
+							<option value="populariteit">Populariteit</option>
+							<option value="a-z">A-Z</option>
+							<option value="1-99">1-99</option>
+						</select>
+					</div>
+					<div class="input">
+						<label for="genre">Genre:</label>
+						<select id="genre" name="genre">
+							<option value="alle">Alle</option>
 						<option value="agressief">Agressief (7)</option>
 						<option value="beknopt">Beknopt (10)</option>
 						<option value="chagerijnig">Chagerijnig (8)</option>
@@ -75,64 +68,36 @@
 						<option value="verwarrend">Verwarrend(14) </option>
 						<option value="vrolijk"> Vrolijk (9)</option>
 						<option value="overig">Overig (12) </option>
-						
-					</select>
-				</div>
-				<div class="input">
-					<label for="leesduur">Leesduur:</label>
-					<select id="leesduur" name="leesduur">
-						<option value="alle">Alle</option>
-						<option value="ondervijf"> &lt; 5 minuten </option>
-						<option value="vijftottien">5 - 10 minuten</option>
-						<option value="tienofmeer"> &gt; 10 minuten</option>
+						</select>
+					</div>
+					<div class="input">
+						<label for="leesduur">Leesduur:</label>
+						<select id="leesduur" name="leesduur">
+							<option value="alle">Alle</option>
+							<option value="ondervijf"> &lt; 5 minuten </option>
+							<option value="vijftottien">5 - 10 minuten</option>
+							<option value="tienofmeer"> &gt; 10 minuten</option>
 
-					</select>
-				</div>
-				<div class="verhaalzoeken">
-					<input class="zoeken" type="submit" value="Zoek">
+						</select>
+					</div>
+					<div class="verhaalzoeken">
+						<input class="zoeken" type="submit" value="Zoek">
+					</div>
 				</div>
 			</div>
-
 		</fieldset>
 	</form>
-
-	<span class="randomkeuze">
-
-		<h3 class="top5">
-			Top 5 verhalen
-		</h3>
-		<h3>
-			Willekeurig verhaal
-		</h3>
-
-
-
-		<h3 class="voorjou">Suggesties voor jou</h3>
-	</span>
 
 
 	<h2>Verhalen</h2>
 	<hr>
+
 	<section class="verhalen">
 		<article>
 			<img class="verhaal" src="afbeeldingen/titel.nichterig.svg" alt="nichterigverhaal">
 			<a><img class="like" src="afbeeldingen/like.svg" alt="like"></a>
 			<a><img class="download" src="afbeeldingen/download.svg" alt="download knop"></a>
-
-			<a><img class="opslaan" src="afbeeldingen/opslaanicoon.svg" alt="opslaan"></a>
-
-			<h1 class="verhaal">
-				Nichterig
-			</h1>
-			<p>Dus ik stap de bus uit, met mijn zoon in mijn wagen en ik schrik me . . . </p>
-			<a class="knop">lees nu</a>
-		</article>
-
-		<article>
-			<img class="verhaal" src="afbeeldingen/Schermafbeelding%202018-11-26%20om%2017.20.12.png" alt="nichterigverhaal">
-			<a><img class="like" src="afbeeldingen/like.svg" alt="like"></a>
-			<a><img class="download" src="afbeeldingen/download.svg" alt="download knop"></a>
-			<a><img class="opslaan" src="afbeeldingen/opslaanicoon.svg"></a>
+<a><img class="opslaan" src="afbeeldingen/opslaanicoon.svg" alt="opslaan"></a>
 
 
 			<h1 class="verhaal">
@@ -146,7 +111,21 @@
 			<img class="verhaal" src="afbeeldingen/Schermafbeelding%202018-11-26%20om%2017.20.12.png" alt="nichterigverhaal">
 			<a><img class="like" src="afbeeldingen/like.svg" alt="like"></a>
 			<a><img class="download" src="afbeeldingen/download.svg" alt="download knop"></a>
-			<a><img class="opslaan" src="afbeeldingen/opslaanicoon.svg"></a>
+
+<a><img class="opslaan" src="afbeeldingen/opslaanicoon.svg" alt="opslaan"></a>
+
+			<h1 class="verhaal">
+				Nichterig
+			</h1>
+			<p>Dus ik stap de bus uit, met mijn zoon in mijn wagen en ik schrik me . . . </p>
+			<a class="knop">lees nu</a>
+		</article>
+
+		<article>
+			<img class="verhaal" src="afbeeldingen/Schermafbeelding%202018-11-26%20om%2017.20.12.png" alt="nichterigverhaal">
+			<a><img class="like" src="afbeeldingen/like.svg" alt="like"></a>
+			<a><img class="download" src="afbeeldingen/download.svg" alt="download knop"></a><a><img class="opslaan" src="afbeeldingen/opslaanicoon.svg" alt="opslaan"></a>
+
 
 
 			<h1 class="verhaal">
@@ -158,6 +137,6 @@
 
 
 	</section>
-</body>
 
+</body>
 </html>

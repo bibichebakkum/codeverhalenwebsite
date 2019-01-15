@@ -4,10 +4,19 @@
 
 /*eslint 'no-console': 0*/
 
-var zoekknop = document.querySelector('#zoeke');
-var header = document.querySelector('body > form');
+var button = document.querySelector('div > button'); //formulier laten open klappen en dicht.
+var main = document.querySelector('section > form');
 
-zoekknop.addEventListener('click',function() {
-		header.classList.toggle('showform')
-						  
- });
+main.classList.add('close');
+
+button.addEventListener('click', function() {
+    main.classList.toggle('close');
+ 
+    if form.close { /* Javascript form closen*/
+    display: none;
+}
+
+    else {
+        button.textContent = "Filter X"
+    }
+});
