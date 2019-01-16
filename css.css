@@ -77,11 +77,12 @@ h3 {
 	text-transform: none;
 	text-align: center;
 	background: #7cd3df;
-	padding: 2em;
+	padding: 1.6em;
 	border: 10px solid #d4f1f5;
 	margin-top: 0.5em;
-	display: flex;
-	justify-content: flex-end;
+}
+.verhaalnichterig {
+	width: 100%;
 }
 
 .top5  {
@@ -121,6 +122,7 @@ hr {
 
 span.randomkeuze {
 	display: flex;
+	flex-wrap: nowrap;
 	width: 60em;
 	margin: auto;
 	
@@ -132,21 +134,22 @@ section.verhalen {
 
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
 article {
 	border: 2px solid #ffffff;
 	box-shadow: 0px 0px 5px #e6e6e7;
 	margin: 0 auto;
-	margin-top: 2em;
-	margin-bottom: 3em;
+	margin-top: 3em;
+	
 	border-radius: 14px;
 	padding-bottom: 1em;
 	height: 27em;
 	position: relative;
 	color: #55565a;
 	width: 17.9em;
-	position: relative;
+
 
 
 }
